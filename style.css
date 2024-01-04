@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: "full";
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  input {
+    width: 20%;
+    margin: auto;
+    padding: 10px;
+    /* margin-left: 20px; */
+    font-size: 16px;
+  }
+  
+  #searchResults {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .movie-result {
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .movie-result img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  #movieDetails {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  #movieDetails img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+    gap: 20px;
+}
